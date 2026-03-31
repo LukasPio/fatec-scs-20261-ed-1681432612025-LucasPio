@@ -1,5 +1,5 @@
 x = y = z = t = 0
-string_x = string_j = string_z = string_t = ""
+string_x = string_y = string_z = string_t = ""
 
 notation = "5 1 2 + 4 * + 3 -"
 tokens = notation.split(' ')
@@ -19,11 +19,11 @@ for token in tokens:
         elif token == '/':
             x = y / x
 
-        string_x = f"({string_j} {token} {string_x})"
+        string_x = f"({string_y} {token} {string_x})"
 
         y = z
         z = t
-        string_j = string_z
+        string_y = string_z
         string_z = string_t
         string_t = ""
         stack_size -= 1
@@ -37,8 +37,8 @@ for token in tokens:
         y = x
         x = value
         string_t = string_z
-        string_z = string_j
-        string_j = string_x
+        string_z = string_y
+        string_y = string_x
         string_x = token
         stack_size += 1
     print(f"Pilha: T={t}, Z={z}, Y={y}, X={x}")
