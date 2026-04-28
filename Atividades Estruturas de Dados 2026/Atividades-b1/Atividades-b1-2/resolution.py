@@ -1,3 +1,17 @@
+""""------------------------------------------ *
+Fatec
+São
+Caetano
+do
+Sul
+Atividade
+B1 - 2
+
+Author[1681432612025]
+Objetivo: Implementar uma lista ligada
+data: 03 / 03 / 2026
+*------------------------------------------ * """
+
 class Node:
     def __init__(self, val=None):
         self.next = None

@@ -1,3 +1,17 @@
+""""------------------------------------------ *
+Fatec
+São
+Caetano
+do
+Sul
+Atividade
+B1 - 3
+
+Author[1681432612025]
+Objetivo: Implementar um algoritmo que simula o comportamento da calculadora HP-12C
+data: 13 / 03 / 2026
+*------------------------------------------ * """
+
 x = y = z = t = 0
 string_x = string_y = string_z = string_t = ""
 

@@ -1,3 +1,17 @@
+""""------------------------------------------ *
+Fatec
+São
+Caetano
+do
+Sul
+Atividade
+B1 - 1
+
+Author[1681432612025]
+Objetivo: Simular um CRUD usando um dicionário
+data: 24 / 02 / 2026
+*------------------------------------------ * """
+
 catalog = {}
 
 def add_movie(movie_id, title, director):
